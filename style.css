@@ -1,8 +1,19 @@
 body {
-        background: goldenrod;
-     
+        background: #F9EAE1;
 }
-.articleHeader {
-       font-size: 5em;
-       color: bisque;
+
+.mainHeader, .articleHeader, .thirthHeader {
+        color: #0B3142;
+}
+
+.secondHeader {
+        color: #0B3142;
+}
+
+.paragraph {
+        color: #0B3142;
+}
+
+.link {
+        color: #CC8B86;
 }
