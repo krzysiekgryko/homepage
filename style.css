@@ -1,19 +1,12 @@
 body {
-        background: #F9EAE1;
+        background: #f5f5f5;
 }
 
-.mainHeader, .articleHeader, .thirthHeader {
-        color: #0B3142;
-}
-
-.secondHeader {
-        color: #0B3142;
-}
-
-.paragraph {
-        color: #0B3142;
+.mainHeader, .articleHeader, .thirthHeader, .paragraph, .secondHeader  {
+        color: #141414;
 }
 
 .link {
-        color: #CC8B86;
+        color: #6EA4BF;
+        text-decoration: none;
 }
