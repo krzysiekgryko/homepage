@@ -2,6 +2,41 @@ body {
         background: #f5f5f5;
 }
 
+.articleHeader, .thirthHeader {
+        color: #141414;
+}
+
+.box, .boxTwo {
+        width: 100px;
+        height: 100px;
+        background: yellowgreen;
+        padding: 10px;
+        border: 10px solid red;
+        margin: 10px;
+        position: absolute;
+        top: 25px;
+        left: 40%;
+}
+
+.cucumber {
+        color:
+}
+
+.front {
+        background-image: url(../homepage/img/front/front3.jpeg);
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        border-radius: 0 0 3vw 0;
+        top: 58px;
+}
+
+.italy{
+        width: 100%;
+        max-width: 700px;
+        display: block;
+        float: left;
+}
 .mainHeader {
         color: paleturquoise;
         width: 100%;
@@ -14,32 +49,20 @@ body {
         border: 10px palegreen;
 }
 
-.front {
-        background-image: url(../homepage/img/front/front3.jpeg);
-        height: 450px;
-        background-repeat: no-repeat;
-        background-position-y: center;
-        border-radius: 3vw 0 0 0;
-       
-}
-
-.articleHeader, .thirthHeader {
-        color: #141414;
-}
-
-.paragraph {
-        width: 50vw;
-        color: #141414;
-        margin: 2vw;
-
-}
-
 .mainMenu {
-        margin: 2vw;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        background: white;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
 }
 
-.secondHeader {
-        color: #141414;
+.main {
+        width: 100%;
+        max-width: 800px;
+        margin: 32px auto;
 }
 
 .link {
@@ -47,6 +70,23 @@ body {
         text-decoration: none;
 }
 
-.cucumber {
-        color:
+.paragraph {
+        width: 50vw;
+        color: #141414;
+        margin: 2vw;
+}
+
+.secondHeader {
+        color: #141414;
+}
+
+.top {
+        background: paleturquoise;
+        padding: 7px;
+        text-decoration: none;
+        color: white;
+        border-radius: 50%;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
 }
